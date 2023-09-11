@@ -1,0 +1,124 @@
+.resident {
+    width: 100%;
+    max-width: 300px;
+    background-color:#072226;
+    color: aliceblue;
+    border-radius: 1em;
+    overflow: hidden;
+    transition: trasform 100ms ease;
+    
+}
+.resident:hover{
+    transform: scale(1.03);
+}
+.resident__header{
+    position: relative;
+}
+.resident__status {
+    position: absolute;
+    top: 2.5em;
+    background-color: #072226;
+    width: 40%;
+    border-radius: 0 0.5em 0.5em 0;
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+.resident__status__circle{
+    display: block;
+    width: 12px;
+    aspect-ratio: 1;
+    background-color: red;
+    border-radius: 50%;
+}
+.Alive{
+    background-color:green ;
+}
+.Dead{
+    background-color: red;
+}
+.resident__body{
+    padding: 1.5em 1m 2.5em;
+   
+    
+}
+.resident__name{
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: rgba(2, 252, 56, 0.795);
+}
+.resident__separator {
+    margin-bottom: 0.5em;
+    border-color: #aaa5;
+}
+.resident__list {
+    display: grid;
+    gap: 0.7em;
+    margin: 0.5em;
+    
+}
+.resident__item {
+    display: flex;
+    flex-direction: column;
+}
+.resident__lavel {
+    font-size: 0.8em;
+    padding-left: 1em;
+    color:aliceblue;
+}
+.resident__value {
+    font-weight: 500;
+}
+.div__header{
+    display:flex;
+    gap: 2.5em;
+    margin: 1em;    
+    flex-wrap: wrap;
+}
+.img__header{
+    width: 100%;
+}
+.from__header {
+   text-align: center;
+   margin-top: 2em;
+}
+.list__location{
+    width: 100%;
+    max-width: 300px;
+    background-color:#072226;
+    color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 1.5em;
+    text-align: center;  
+    flex-direction: column;  
+    
+}
+.header__h2{
+    font-size: 14px;
+    color: rgba(2, 252, 56, 0.795);
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+}
+.header__ul{
+    display: flex;
+    gap: 1.5em;
+    margin: 1em;
+}
+.header__il{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.header__span{
+    font-size: 0.8em;
+    padding-left: 1em;
+    color:rgba(240, 248, 255, 0.548);
+}
+.target__location{
+    text-align: center;
+}
+.card__location{
+    text-align: center;
+}

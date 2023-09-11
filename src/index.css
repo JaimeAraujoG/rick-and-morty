@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'lato', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #114750;
+    
+}
+h1, h2,h3, ul, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+input{
+    outline: none;
+    font-family: inherit;
+    border-radius:0.5em ;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+    background-color:  rgba(2, 252, 56, 0.795);
+    color: white;
+    border-radius: 0.5em
+}
+img{
+    width: 100;
+    display: block;
+}
